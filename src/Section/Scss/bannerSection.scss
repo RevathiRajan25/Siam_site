@@ -1,0 +1,76 @@
+.banner-section {
+  background-image: url(https://siamcomputing.com/wp-content/uploads/2021/09/Group-376.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Prompt";
+  padding-top: 135px;
+  .banner {
+    .row{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .col-banner-text {
+      background-image: url(https://siamcomputing.com/wp-content/uploads/2021/09/Vector-4-4.png);
+      background-repeat: no-repeat;
+      
+      .banner-text {
+        opacity: 0;
+        animation: bottomToTop 1s ease-in-out forwards;
+        // animation-duration: ;
+      
+        &.visible {
+          opacity: 1;
+        }
+        text-align: initial;
+        padding: 30px;
+        .banner-title {
+          margin: 0px 0px 0px 0px;
+          padding: 0 0px 12px 0;
+          background-image: url(https://siamcomputing.com/wp-content/uploads/2021/09/Vector-2-3.png);
+          background-position: 34% 100%;
+          background-repeat: no-repeat;
+          background-size: 27% auto;
+          h1 {
+            color: #333333;
+            font-size: 60px;
+            font-weight: 800;
+            font-style: normal;
+            
+            line-height: 78px;
+          }
+        }
+
+        p {
+            color: #444444;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        // button{
+        //     font-size: 20px;
+        //     font-weight: 500;
+        //     line-height: 30px;
+        //     text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+        //     background-color: #333333;
+        //     border-radius: 2px 2px 2px 2px;
+        // }
+        // button:hover{
+        //     background-color: #DA4545;
+        //     border-radius: 2px 2px 2px 2px;
+        //     border-color: #DA4545;
+        // }
+      }
+    }
+  }
+}
+
+
+@keyframes bottomToTop {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

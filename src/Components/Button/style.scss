@@ -1,0 +1,29 @@
+.btn{
+    &.btn-primary{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+        background-color: #333333;
+        border-radius: 2px 2px 2px 2px;
+        &:hover{
+            background-color: #DA4545;
+            border-color: #DA4545;
+        }
+    }
+    &.btn-secondary{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        background-color: #fff;
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+        border-color: #333333;
+        color: #333333;
+        border-radius: 2px 2px 2px 2px;
+        &:hover{
+            background-color: #DA4545;
+            border-color: #DA4545;
+            color: #fff;
+        }
+    }
+}

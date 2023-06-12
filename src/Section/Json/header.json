@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "name": "Services",
+        "list": [
+            {
+                "id": 1,
+                "name": "Product Strategy and Consulting"
+            },
+            {
+                "id": 2,
+                "name": "MVP Development"
+            },
+            {
+                "id": 3,
+                "name": "Dedicated Product Team"
+            }
+        ]
+
+    },
+    {
+        "id": 2,
+        "name": "Skills",
+        "list": [
+            {
+                "id": 1,
+                "name": "Mobile App Development"
+            },
+            {
+                "id": 2,
+                "name": "Hybrid App Development"
+            },
+            {
+                "id": 3,
+                "name": "React Native Development"
+            }
+        ]
+
+    },
+    {
+        "id": 3,
+        "name": "About",
+        "list": [
+            {
+                "id": 1,
+                "name": "Our Journey"
+            },
+            {
+                "id": 2,
+                "name": "Life at Siam"
+            },
+            {
+                "id": 3,
+                "name": "Careers"
+            }
+        ]
+
+    },
+    {
+        "id": 4,
+        "name": "Resources",
+        "list": [
+            {
+                "id": 1,
+                "name": "Blogs"
+            },
+            {
+                "id": 2,
+                "name": "Case Studies"
+            },
+            {
+                "id": 3,
+                "name": "Guide",
+                "list": [
+                    {
+                        "id": 1,
+                        "name": "App Development Guide"
+                    },
+                    {
+                        "id": 2,
+                        "name":"Product Dev Guide"
+                    }
+                ]
+            }
+        ]
+
+    }
+]
